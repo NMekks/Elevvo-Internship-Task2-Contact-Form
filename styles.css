@@ -6,31 +6,32 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 19px;
-  width: 100vh;
+  width: 100%;
   margin: auto;
   background-color: rgb(230, 223, 219);
 }
 
-h1, p {
-    color: #8f3424;
+h1,
+p {
+  color: #8f3424;
 }
 
 .page-content {
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 0;
   text-align: center;
 }
 
 .contact-form {
-  width: 70%;
-  padding:3%;
-  margin-top: 5%;
+  width: 35%;
+  padding: 3%;
+  margin-top: 2%;
   background: #ffcf99;
   border-radius: 25px;
 }
 
 label {
-    color: #8f3424;
+  color: #8f3424;
 }
 .contact-form input[type="text"],
 input[type="email"],
@@ -47,7 +48,7 @@ textarea {
   padding: 2%;
   width: 100%;
   margin-top: 1%;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .contact-form .submit-btn {
@@ -67,5 +68,29 @@ textarea {
 }
 
 .contact-form .submit-btn:hover {
-    opacity: 80%;
+  opacity: 80%;
+}
+
+@media screen and (max-width: 576px) {
+  .page-content {
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+  }
+  .contact-form {
+    width: 90%;
+    padding: 5%;
+  }
+
+  .contact-form input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+  }
+
+  .contact-form .submit-btn {
+    width: 30%;
+    margin-top: 5%;
+    padding: 3%;
+  }
 }
