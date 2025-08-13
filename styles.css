@@ -1,40 +1,72 @@
 * {
-    font-size: 19px;
-    background-color: rgb(242, 242, 236);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100vh;
-    margin: auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100vh;
+  margin: auto;
 }
 
 .page-content {
-    margin-top: 8%;
-    margin-left:0;
-    text-align: center;
+  margin-top: 10%;
+  margin-left: 0;
+  text-align: center;
 }
 
+/*
+h2 {
+  font-size: 25px;
+}
+
+p {
+  margin-top: 5%;
+}
+*/
 .contact-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-
+  width: 60%;
+  margin: auto;
 }
 
-.contact-form input{
-    display: flex;
-    flex-direction: row;
-    margin:2% auto;
-    width: 50%;
-    height: 20%;
-    background-color: aliceblue;
-    border: 1px solid rgb(35, 35, 35);
-    border-radius: 5px;
+/* .contact-form-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
+  background: #ffcf99;
+  height: auto;
+  border-radius: 5%;
+  margin: 0%;
+  padding: 0%;
+} */
+
+.contact-form input[type="text"],
+input[type="email"],
+textarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  background-color: aliceblue;
+  border: 1px solid #a5402d;
+  border-radius: 5px;
+  padding: 3%;
+  width: 100%;
+  margin: 5%;
 }
 
-.contact-form textarea {
-    width: 50%;
-    margin-left:24.5%;
-    background-color: aliceblue;
-    border: 1px solid rgb(35, 35, 35);
-    border-radius: 5px;
+.contact-form .submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  font-size: 17px;
+  background-color: #a5402d;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+  margin: auto;
 }
