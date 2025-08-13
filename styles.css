@@ -1,0 +1,40 @@
+* {
+    font-size: 19px;
+    background-color: rgb(242, 242, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vh;
+    margin: auto;
+}
+
+.page-content {
+    margin-top: 8%;
+    margin-left:0;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.contact-form input{
+    display: flex;
+    flex-direction: row;
+    margin:2% auto;
+    width: 50%;
+    height: 20%;
+    background-color: aliceblue;
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    width: 50%;
+    margin-left:24.5%;
+    background-color: aliceblue;
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 5px;
+}
