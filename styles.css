@@ -8,6 +8,14 @@ body {
   margin: auto;
 }
 
+/* .contact-form-background { 
+    background-color: #ffcf99;
+    padding: 3%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+} */
+
 .page-content {
   margin-top: 10%;
   margin-left: 0;
@@ -28,18 +36,14 @@ p {
   margin: auto;
 }
 
-/* .contact-form-background {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+.contact-form-background {
   margin-top: 5%;
   background: #ffcf99;
   height: auto;
-  border-radius: 5%;
-  margin: 0%;
-  padding: 0%;
-} */
+  border-radius: 25px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 .contact-form input[type="text"],
 input[type="email"],
